@@ -5,8 +5,8 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello World!'
 @app.route('/hi')
-def hi():
-    return 'hi!'
+def hellohtml():
+    return render_template("index.html")
 
 if __name__ == '__main__':
     app.run()
