@@ -1,0 +1,7 @@
+{
+    "user": "admin",
+    "password": "admin",
+    "host": "localhost",
+    "dbname": "Guide",
+    "port": "5432"
+  }
